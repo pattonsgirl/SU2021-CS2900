@@ -1,10 +1,16 @@
 # CS 2900 - Summer 2021
 Content for Data Analysis with Python
 
+- [Software](#Software)
+- [Resources](#Resources)
+
 ## Software
 
-### Anaconda
+- [Anaconda](#Anaconda)
+- [Git](#Git)
+- [VSCode](#Visual-Studio-Code)
 
+### Anaconda
 1. Install Anaconda
     - [Installer for Windows](https://repo.anaconda.com/archive/Anaconda3-2020.11-Windows-x86_64.exe)
         - Install for all users (personal preference)
@@ -65,8 +71,5 @@ Content for Data Analysis with Python
 
 2. Recommended Plugins / Extensions
     - Python
-
-
-
 
 ## Resources
