@@ -42,7 +42,8 @@ Content for Data Analysis with Python
         - If you see this warning: 
         ```
         Warning:
-        This Python interpreter is in a conda environment, but the environment has not been activated.  Libraries may fail to load.  To activate this environment please see https://conda.io/activation
+        This Python interpreter is in a conda environment, but the environment has not been activated.  
+        Libraries may fail to load.  To activate this environment please see https://conda.io/activation
         ```
         - Run this command: `C:\ProgramData\Anaconda3\Scripts\activate base`
         - The next line may now start with `(base)`
