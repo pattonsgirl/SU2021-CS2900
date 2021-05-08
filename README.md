@@ -55,12 +55,40 @@ Content for Data Analysis with Python
 ### Git
 1. Install:
     - [For Windows](https://github.com/git-for-windows/git/releases/download/v2.31.1.windows.1/Git-2.31.1-64-bit.exe)
+        - Accept defaults until you get to the Choosing the default editor used by Git screen, on this I would recommend selecting Visual Studio Code (not insider build) from the dropdown.
+        - Accept all other defaults
+        - After installation, run the Git Bash program and execute the following commands:
+        - `git config --global user.name "Your Name"`
+        - `git config --global user.email "youremail@yourdomain.com"`
+        - Note: substitute your name and email in the above commands inside the quote (keep the quotation marks)
     - For Linux: 
         - `sudo apt install git-all`
         - [Other install instructions](https://git-scm.com/download/linux)
+        - After installation, run the following commands:
+        - `git config --global user.name "Your Name"`
+        - `git config --global user.email "youremail@yourdomain.com"`
+        - Note: substitute your name and email in the above commands inside the quote (keep the quotation marks)
     - For Mac: 
         - Type `git` on command line.  Should prompt to install
         - [Other install instructions](https://git-scm.com/download/mac)
+        - After installation, run the following commands:
+        - `git config --global user.name "Your Name"`
+        - `git config --global user.email "youremail@yourdomain.com"`
+        - Note: substitute your name and email in the above commands inside the quote (keep the quotation marks)
+
+2. GitHub Desktop (Optional) - likely for Windows & Mac users
+    - The advantage here is purely in authentication.  I literally don't open it after I've cloned a project, VSCode then uses the Desktop apps credentials, and I am happy.
+    - [GitHub Desktop](https://desktop.github.com/)
+
+3. SSH Key Authorization (Optional) - likely for Linux and Mac
+    - Generate a key pair: `ssh-keygen -t ed25519 -C "your_email@example.com"`
+        - I would keep the default name & location for the file, and I would **not** enter a passphrase
+    - Open your GitHub profile, go to Settings, then select "SSH & GPG Keys"
+    - Copy the contents of `.ssh\id_ed25519.pub` to a new key entry - I usually name them with my system name to remember
+    - In your repository, click the green "Code" button, select "SSH", copy the URL provided
+    - In your terminal, type `git clone insert-URL-here`
+    - [If you cloned with HTTPS, how to change your repo to authenticate with SSH (not HTTPS)](https://haydar-ai.medium.com/learning-how-to-git-using-ssh-instead-of-https-91f09cff72de)
+    - [If you have errors, poke around here](https://docs.github.com/en/github/authenticating-to-github/error-permission-denied-publickey)
 
 ### Visual Studio Code
 1. Install:
