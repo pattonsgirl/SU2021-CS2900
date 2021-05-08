@@ -13,5 +13,9 @@ git skills:
 Command line usage:
 
     Beginner
-    Dabbler (maybe took 2350)
+    Dabbler (maybe took 2350 or 2410 (with me))
     Daily User
+
+Code knowledge
+
+    
