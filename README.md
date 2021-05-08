@@ -79,8 +79,8 @@ Content for Data Analysis with Python
 2. GitHub Desktop (Optional) - likely for Windows & Mac users
     - The advantage here is purely in authentication.  I literally don't open it after I've cloned a project, VSCode then uses the Desktop apps credentials, and I am happy.
     - [GitHub Desktop](https://desktop.github.com/)
-
-3. SSH Key Authorization (Optional) - likely for Linux and Mac
+ 
+3. SSH Key Authorization (Optional) - likely for Linux and Mac (this may work in Windows using Git Bash)
     - Generate a key pair: `ssh-keygen -t ed25519 -C "your_email@example.com"`
         - I would keep the default name & location for the file, and I would **not** enter a passphrase
     - Open your GitHub profile, go to Settings, then select "SSH & GPG Keys"
