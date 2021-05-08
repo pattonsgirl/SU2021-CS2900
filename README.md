@@ -76,4 +76,6 @@ Content for Data Analysis with Python
 
 ### Markdown for `.md` Files
 - [markdown-demo.md](markdown-demo.md)
-- 
+    - [Direct link to raw file](https://raw.githubusercontent.com/pattonsgirl/SU2021-CS2900/main/markdown-demo.md)
+- [Basic Writing and Formatting Syntax](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)
+- [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
