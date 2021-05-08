@@ -73,3 +73,7 @@ Content for Data Analysis with Python
     - Python
 
 ## Resources
+
+### Markdown for `.md` Files
+- [markdown-demo.md](markdown-demo.md)
+- 
