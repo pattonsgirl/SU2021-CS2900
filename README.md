@@ -103,8 +103,25 @@ Content for Data Analysis with Python
 
 ## Resources
 
-### Markdown for `.md` Files
+- [Understanding git](#Understanding-git)
+- [Python Tutorials](#Python-Basics)
+- [Immersion](#Immersion)
+
+### Understanding git
+- [Pro Git Book](https://git-scm.com/book/en/v2)
+
+#### Markdown for `.md` Files
 - [markdown-demo.md](markdown-demo.md)
     - [Direct link to raw file](https://raw.githubusercontent.com/pattonsgirl/SU2021-CS2900/main/markdown-demo.md)
 - [Basic Writing and Formatting Syntax](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+
+### Python Basics
+- Note: I recommend picking one of these and treating it as your textbook.  Google searches of what you're trying to do are also effective, but can feel overwhelming if you don't quite know what you're looking for.
+- [Official Python Docs](https://docs.python.org/3/tutorial/index.html)
+- [W3 Schools - Python](https://www.w3schools.com/python/python_intro.asp)
+- [Python Tutorial](https://pythonbasics.org/)
+
+### Immersion
+- [Towards Data Science](https://towardsdatascience.com/)
+    - Frequent blogs about problem solving.  Community is python focused.
