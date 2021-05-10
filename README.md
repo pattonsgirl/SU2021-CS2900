@@ -101,6 +101,10 @@ Content for Data Analysis with Python
 2. Recommended Plugins / Extensions
     - Python
 
+3. Make sure in the bottom left corner that it states something similar to `Python 3.8.5 64-bit ('base':conda)`
+    - If not, click on it, and in the dropdown select the Anaconda version of python
+    - This may add a `.vscode` folder with this special selection.  Leave it.
+
 ## Resources
 
 - [Understanding git](#Understanding-git)
@@ -119,6 +123,7 @@ Content for Data Analysis with Python
 ### Python Basics
 - Note: I recommend picking one of these and treating it as your textbook.  Google searches of what you're trying to do are also effective, but can feel overwhelming if you don't quite know what you're looking for.
 - [Official Python Docs](https://docs.python.org/3/tutorial/index.html)
+- [learnpython.org](https://www.learnpython.org/)
 - [W3 Schools - Python](https://www.w3schools.com/python/python_intro.asp)
 - [Python Tutorial](https://pythonbasics.org/)
 
