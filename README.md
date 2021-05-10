@@ -107,6 +107,8 @@ Content for Data Analysis with Python
 
 ## Resources
 
+This lists are by no means exhuastive.  Also, please share links to communities you enjoy and I'll add them to the list!
+
 - [Understanding git](#Understanding-git)
 - [Python Tutorials](#Python-Basics)
 - [Immersion](#Immersion)
