@@ -130,3 +130,7 @@ Content for Data Analysis with Python
 ### Immersion
 - [Towards Data Science](https://towardsdatascience.com/)
     - Frequent blogs about problem solving.  Community is python focused.
+- [r/learnpython](https://www.reddit.com/r/learnpython/)
+- [r/Python](https://www.reddit.com/r/Python/)
+- [r/datasets](https://www.reddit.com/r/datasets/)
+- [r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/)
