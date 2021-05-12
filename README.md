@@ -109,9 +109,13 @@ Content for Data Analysis with Python
 
 This lists are by no means exhuastive.  Also, please share links to communities you enjoy and I'll add them to the list!
 
+- [Python for Data Analysis Companion Repository](#Companion-Repo)
 - [Understanding git](#Understanding-git)
 - [Python Tutorials](#Python-Basics)
 - [Immersion](#Immersion)
+
+### Companion Repo
+- [Python for Data Analysis Companion Repository](https://github.com/wesm/pydata-book)
 
 ### Understanding git
 - [Pro Git Book](https://git-scm.com/book/en/v2)
@@ -126,6 +130,8 @@ This lists are by no means exhuastive.  Also, please share links to communities 
 - Note: I recommend picking one of these and treating it as your textbook.  Google searches of what you're trying to do are also effective, but can feel overwhelming if you don't quite know what you're looking for.
 - [Official Python Docs](https://docs.python.org/3/tutorial/index.html)
 - [learnpython.org](https://www.learnpython.org/)
+- [Whirlwind Tour of Python](https://jakevdp.github.io/WhirlwindTourOfPython/)
+    - [Companion Jupyter Notebooks](https://nbviewer.jupyter.org/github/jakevdp/WhirlwindTourOfPython/tree/master/)
 - [W3 Schools - Python](https://www.w3schools.com/python/python_intro.asp)
 - [Python Tutorial](https://pythonbasics.org/)
 
