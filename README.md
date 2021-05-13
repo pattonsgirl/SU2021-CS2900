@@ -156,6 +156,11 @@ Solution: Need to change VSCode to use Powershell by default.  This is due to VS
 - Close your terminal / reload VSCode.  Hit "Play".  Output should now be as advertised.
 ![vscode powershell switch](Images/powershell-config-line.PNG)
 
+Other install guides:
+- While we did go through installation in class, sometimes it helps to see others going through the same process.  This guy does a great job, focus is on Anaconda + VSCode specifically
+- [VSCode + Anaconda](https://www.youtube.com/watch?v=sts3CFewvkY&ab_channel=OpenSourceOptions)
+- [Updated video based on VSCode updates](https://www.youtube.com/watch?v=3Wt00qGlh3s&ab_channel=OpenSourceOptions)
+
 
 ## Resources
 
