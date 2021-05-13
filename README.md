@@ -134,7 +134,7 @@ print(a)
 Hello World
 [0 1 2 3 4 5 6 7 8 9]
 ```
-![visual model to compare](Images/working-output.png)
+![visual model to compare](Images/working-output.PNG)
 3. In the "Source Control" menu, there should be a note that files in your folder have had changes (or been added)
 4. Click the "Commit" checkmark".  This may prompt asking if you want files to be auto added.  Go ahead and say "Yes"
 5. Click the three dots (...) for a dropdown, and select "Push"
@@ -154,6 +154,7 @@ Solution: Need to change VSCode to use Powershell by default.  This is due to VS
 - There should be a line: `"terminal.integrated.defaultProfile.windows": "Command Prompt",`
 - Change `Command Prompt` to `Powershell` and Ctrl + S to Save
 - Close your terminal / reload VSCode.  Hit "Play".  Output should now be as advertised.
+![vscode powershell switch](Images/powershell-config-line.PNG)
 
 
 ## Resources
