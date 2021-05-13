@@ -55,7 +55,7 @@ Content for Data Analysis with Python
         - Close and open new terminal or type `source .profile`
         - The next line may now start with `(base)`.
     - Mac:
-        - First volunteer will help me fill this section out! 
+        - If using Graphical Download, no adjustments to PATH are needed.
 
 3. [Windows] Powershell changes
     - Allow 'conda' to work on your computer:
