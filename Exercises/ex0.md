@@ -6,7 +6,7 @@ This lab expects that you have already installed tools per the syllabus & lectur
 
 For this lab, you will create a Jupyter Notebook in your `Exercises` folder called `ex0.ipynb`
 
-You can find a [format sample here](ex1.ipynb)
+You can find a [format sample here](ex0.ipynb)
 
 ## Part 1:
 
@@ -27,4 +27,4 @@ Hello, my name is Marie Curie
 
 1. Commit and push your changes to your repository.  Verify that these changes show in your course repository, https://github.com/WSU-kduncan/cs2900-python-YOURGITHUBNAME
 
-2. In Pilot, paste the link to your notebook.  Sample link: https://github.com/WSU-kduncan/cs2900-python-YOURGITHUBUSERNAME/blob/main/Exercises/ex1.ipynb
+2. In Pilot, paste the link to your notebook.  Sample link: https://github.com/WSU-kduncan/cs2900-python-YOURGITHUBUSERNAME/blob/main/Exercises/ex0.ipynb
