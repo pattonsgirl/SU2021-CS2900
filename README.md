@@ -199,3 +199,8 @@ This lists are by no means exhuastive.  Also, please share links to communities 
 - [r/Python](https://www.reddit.com/r/Python/)
 - [r/datasets](https://www.reddit.com/r/datasets/)
 - [r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/)
+
+## Citing my Sources
+
+- Hints for VSCode + Anaconda + Powershell - https://stackoverflow.com/questions/54828713/working-with-anaconda-in-visual-studio-code
+- Swapping Command Prompt for Powershell - https://code.visualstudio.com/docs/editor/integrated-terminal#_configuration
