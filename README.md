@@ -9,6 +9,8 @@ Content for Data Analysis with Python
 - [Anaconda](#Anaconda)
 - [Git](#Git)
 - [VSCode](#Visual-Studio-Code)
+- [Test Workflow](#Test-Workflow)
+- [Troubleshooting](#Troubleshooting)
 
 ### Anaconda
 1. Install Anaconda
@@ -37,6 +39,7 @@ Content for Data Analysis with Python
     - Windows: 
         - Start menu, "Environment Variables", look for "Path" entry under **"System variables"**
         - Add new entry: `C:\ProgramData\Anaconda3`
+        - Add new entry: `C:\ProgramData\Anaconda3\Scripts`
         - Use "Move Up" button to place above any other python installs
         - Open a terminal, and type `python` - you should see notes that state you are using anaconda python 3.8
         - If you see this warning: 
@@ -47,11 +50,20 @@ Content for Data Analysis with Python
         ```
         - Run this command: `C:\ProgramData\Anaconda3\Scripts\activate base`
         - The next line may now start with `(base)`
+        - Going forward, I recommend using the tools installed with Anaconda if you need a terminal only - otherwise you have to remember to activate every time.
     - Linux:
         - Close and open new terminal or type `source .profile`
         - The next line may now start with `(base)`.
     - Mac:
         - First volunteer will help me fill this section out! 
+
+3. [Windows] Powershell changes
+    - Allow 'conda' to work on your computer:
+        - (Running Powershell): `conda init powershell`
+        - (In cmd - optional): `conda init cmd.exe`
+    - Allow Powershell to run scripts:
+        - Running Powershell as Admin: `Set-ExecutionPolicy RemoteSigned`
+            - Recommend selecting A, Yes to All
 
 ### Git
 1. Install:
@@ -101,9 +113,48 @@ Content for Data Analysis with Python
 2. Recommended Plugins / Extensions
     - Python
 
-3. Make sure in the bottom left corner that it states something similar to `Python 3.8.5 64-bit ('base':conda)`
+3. Open your folder that you cloned in VS Code
+    - File -> Open Folder, use explorer to browse to folder
+    - In GitHub Desktop, Repository -> Open in Visual Studio Code
+
+4. Make sure in the bottom left corner that it states something similar to `Python 3.8.5 64-bit ('base':conda)`
     - If not, click on it, and in the dropdown select the Anaconda version of python
     - This may add a `.vscode` folder with this special selection.  Leave it.
+
+### Test Workflow
+1. In your Demos folder, create a `.py` file with the following contents:
+```
+import numpy
+print("Hello World")
+a = numpy.arange(10)
+print(a)
+```
+2. Hit the "Play" button in the upper right.  The expected output is below.  If you see something different, check [Troubleshooting](#Troubleshooting) or post to the Discord chat if you see something not documented.
+```
+Hello World
+[0 1 2 3 4 5 6 7 8 9]
+```
+![visual model to compare](Images/working-output.png)
+3. In the "Source Control" menu, there should be a note that files in your folder have had changes (or been added)
+4. Click the "Commit" checkmark".  This may prompt asking if you want files to be auto added.  Go ahead and say "Yes"
+5. Click the three dots (...) for a dropdown, and select "Push"
+    - If you cloned with HTTPS, you'll be prompted for a username / password to authenticate with GitHub here.
+    - If you cloned with SSH, you should not be prompted.  If you have an error, post to the Discord chat and I'll help you through
+    - If you installed GitHub for Desktop and signed in to your GitHub account, you should not be prompted.  If you have an error, post to the Discord chat and I'll help you through
+6. In the browser, refresh your GitHub page for this course. You should see your new file in the Demos folder.
+
+### Troubleshooting
+Problem: Hit "Play", see "& was unexpected at this time"
+
+Solution: Need to change VSCode to use Powershell by default.  This is due to VSCode getting a tighter integration with Powershell.
+- In VSCode, type: Ctrl + Shift + P
+- Search for Preferences: Open User Settings and select to open
+- Search for Terminal › Integrated › Default Profile: Windows
+- Click to open `Edit in settings.json`
+- There should be a line: `"terminal.integrated.defaultProfile.windows": "Command Prompt",`
+- Change `Command Prompt` to `Powershell` and Ctrl + S to Save
+- Close your terminal / reload VSCode.  Hit "Play".  Output should now be as advertised.
+
 
 ## Resources
 
