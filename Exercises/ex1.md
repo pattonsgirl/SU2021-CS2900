@@ -1,4 +1,4 @@
-# Exercise Set 1
+# Exercise Set 1 - NOT FINALIZED
 
 ## Setup:
 
@@ -8,7 +8,15 @@ For this lab, create a Jupyter Notebook in your `Exercises` folder called `ex1.i
 
 ## Part 1:
 
+Build on from the Favorite Numbers exercise in class:
+If the user does not exist in the dictionary, prompt for their favorite number and add them to the fav_nums dictionary 
+
+
 ## Part 2:
+
+Build on from the Favorite Numbers exercise in class:
+Set up the fav_nums dictionary so that users can have a list of numbers.  Output that list.
+
 
 ## Part 3:
 
