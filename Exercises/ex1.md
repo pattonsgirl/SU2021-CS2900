@@ -7,14 +7,53 @@ This lab expects that you have already installed tools per the syllabus & lectur
 For this lab, create a Jupyter Notebook in your `Exercises` folder called `ex1.ipynb`
 
 ## Part 1:
+Create a list of 40 random numbers between 5 and 50.
+Find and print the average of the list.  Have the print statement be in the following format:
+```
+The average of the list is: 45.2
+```
 
+Cite the source(s) you use for your code as comments.  You can cite your own brilliance
 
 ## Part 2:
+Use the two lists provided below to solve the following:
+```
+known_ips = ['12.45.23.1', '89.34.23.67', '67.45.23.43', '90.32.65.98']
+new_ips = ['45.23.98.12', '89.23.21.9', '67.45.23.43', '1.1.1.1']
+```
+Add the new ip addresses to the known ip addresses list with the following restrictions:
+- Do not add duplicate ips to the known ips list
+- Do not add '1.1.1.1' to the known ips list
+- By the end of the program, the new_ips list should be empty
 
+Output the final version of the 'known_ips' list such that it looks like:
+```
+Known IP Addresses Updated:
+    12.45.23.1
+    89.34.23.67
+    67.45.23.43
+    90.32.65.98
+    45.23.98.12
+    89.23.21.9
+```
+
+Cite the source(s) you use for your code as comments.  You can cite your own brilliance
 
 ## Part 3:
+Given the list below, write a condition that will print `buzz buzz` for all camelcase iteration of the word 'bees'.
+```
+camelcase = ['bees', 'BEES', BeEs', 'Bees', 'BeeS']
+```
+Final expected output:
+```
+buzz buzz
+buzz buzz
+buzz buzz
+buzz buzz
+buzz buzz
+```
 
-## Part 4:
+Cite the source(s) you use for your code as comments.  You can cite your own brilliance
 
 ## Submission
 
