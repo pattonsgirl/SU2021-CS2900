@@ -6,6 +6,8 @@ This lab expects that you have already installed tools per the syllabus & lectur
 
 For this lab, create a Jupyter Notebook in your `Exercises` folder called `ex1.ipynb`
 
+**Put each `Part` of the exercise set in its own cell**
+
 ## Part 1:
 Create a list of 40 random numbers between 5 and 50.
 Find and print the average of the list.  Have the print statement be in the following format:
