@@ -71,7 +71,9 @@ Cite the source(s) you use for your code as comments.  You can cite your own bri
 
 ## Part 3:
 
+Create a file called `input.txt` and fill it with a few lines of content.
 
+Write a try-catch statement that will output the contents of `input.txt` as long as the file exists.
 
 Cite the source(s) you use for your code as comments.  You can cite your own brilliance
 
