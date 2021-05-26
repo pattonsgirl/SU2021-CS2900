@@ -6,13 +6,17 @@ This lab expects that you have already installed tools per the syllabus & lectur
 
 For this lab, create a Jupyter Notebook in your `Exercises` folder called `ex2.ipynb`
 
+**Put each `Part` of the exercise set in its own cell**
+
 ## Part 1:
 
 Build on from the Favorite Numbers exercise in class:
-Given a starting dictionary of:
-`fav_nums = {'sam':56, 'ken':98, 'saul':6}`
-And given a list of keys to look up of:
+
+Given a starting dictionary of:  
+`fav_nums = {'sam':56, 'ken':98, 'saul':6}`  
+And given a list of keys to look up of:  
 `lookup = ('sam','ben','ken','paul','saul')`
+
 Output each key's favorite number.  If the key does not exist in the dictionary, prompt for the user for the key's favorite number and add the key and its value to the fav_nums dictionary.  In addition, print the average favorite number.
 
 Output format:

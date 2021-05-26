@@ -44,7 +44,7 @@ Cite the source(s) you use for your code as comments.  You can cite your own bri
 ## Part 3:
 Given the list below, write a condition that will print `buzz buzz` for all camelcase iteration of the word 'bees'.
 ```
-camelcase = ['bees', 'BEES', BeEs', 'Bees', 'BeeS']
+camelcase = ['bees', 'BEES', 'BeEs', 'Bees', 'BeeS']
 ```
 Final expected output:
 ```
