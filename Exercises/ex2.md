@@ -1,4 +1,4 @@
-# Exercise Set 2 - NOT FINALIZED
+# Exercise Set 2
 
 ## Setup:
 
