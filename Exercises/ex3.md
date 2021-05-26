@@ -8,6 +8,9 @@ For this lab, create a Jupyter Notebook in your `Exercises` folder called `ex1.i
 
 ## Part 1:
 
+
+## Part 1:
+
 DIY dataset - save to file basic-data.txt in the `Exercises` folder
 
 ## Part 2:
