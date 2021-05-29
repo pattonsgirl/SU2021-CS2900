@@ -19,7 +19,7 @@ And given a list of keys to look up of:
 
 Output each key's favorite number.  If the key does not exist in the dictionary, prompt for the user for the key's favorite number and add the key and its value to the fav_nums dictionary.  In addition, print the average favorite number.
 
-Output format:
+Sample output format 1:
 ```
 Favorite numbers:
     Sam     56
@@ -27,6 +27,18 @@ Favorite numbers:
     Ken     98
     Paul    2
     Saul    6
+Bonus - Average Favorite Number:
+    48
+```
+
+Sample output format 2:
+```
+Favorite numbers:
+    Sam     56
+    Ken     98
+    Saul    6
+    Ben     78
+    Paul    2
 Bonus - Average Favorite Number:
     48
 ```
