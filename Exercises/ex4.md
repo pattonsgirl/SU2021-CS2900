@@ -14,10 +14,13 @@ There is a forecast from the National Weather Service in [forecast.json](forecas
 
 Create a list of temperatures by programatically (using code) pulling out the temperature for each item in the list.  If you need a hint on how to parse the file, refer to the beginning of lecture 6/9.
 
+Cite the source(s) you use for your code as comments.  You can cite your own brilliance
+
 ## Part 2:
 
 Using the list, create a visualization using the `matplotlib.pyplot` module.  Give your chart a title and label the y-axis at minimum.
 
+Cite the source(s) you use for your code as comments.  You can cite your own brilliance
 
 ## Part 3:
 
