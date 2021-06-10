@@ -62,3 +62,18 @@ Choose one or both of the following ways to improve your work in Parts 1 & 2:
 **Better x-axis labels (5%)**: Get a list of "names" in addition to the temperatures.  Chart the names with the temperatures, and have the names display on your visualization.
 
 Note: this will have some parallels to the code we wrote in class 6/9 if you need a reference.
+
+## Documentation: How I went from auth.logs to a .csv of extracted data
+
+```
+# avoiding duplicate data records by getting only 'Invalid user' reports
+cat auth.log | grep "Invalid user" > auth-invalidusers.log
+# avoiding blank ('') usernames as auth attempts
+cat auth-invalidusers.log | egrep "user \w+" > auth-invalidusers-unames.log
+# parsing out just the ip addresses
+cat auth-invalidusers-unames.log | egrep -o " [0-9]+\.[0-9]+\.[0-9]+\.[0-9]+ " | egrep "[0-9]" > auth-ips
+# parsing out just the usernames
+cat auth-invalidusers-unames.log | egrep -o "user .+ from [0-9]" | awk '{print $2}' > auth-usernames
+# merging into a csv file
+paste auth-usernames auth-ips | awk -F ",||\t" '{print $1","$2}' > auth.logs.csv
+```
