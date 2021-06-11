@@ -18,9 +18,11 @@ Cite the source(s) you use for your code as comments.  You can cite your own bri
 
 ## Part 2:
 
-Using the list, create a visualization using the `matplotlib.pyplot` module.  Give your chart a title and label the y-axis at minimum.
+Using the list of high temperatures from Part 1, create a visualization using the `matplotlib.pyplot` module.  Give your chart a title and label the y-axis at minimum.
 
 Cite the source(s) you use for your code as comments.  You can cite your own brilliance
+
+**Note** if you could not accomplish getting the data using code, you can manually create the list so that you can move forward with this part of the exercises.
 
 ## Part 3:
 
