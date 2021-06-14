@@ -3,7 +3,9 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 
 #with open("C:/Users/w010ked/Documents/GitHub/CEG2900/Class-Demos/sitka_weather_07-2018_simple.csv", 'r') as f:
-with open("sitka_weather_07-2018_simple.csv", 'r') as f:
+#with open("sitka_weather_07-2018_simple.csv", 'r') as f:
+with open("sitka_weather_2018_simple.csv", 'r') as f:
+
     reader = csv.reader(f)
     header_row = next(reader)
     print(header_row)
