@@ -169,6 +169,7 @@ This lists are by no means exhuastive.  Also, please share links to communities 
 - [Python for Data Analysis Companion Repository](#Companion-Repo)
 - [Understanding git](#Understanding-git)
 - [Python Tutorials](#Python-Basics)
+- [Cheat Sheets](https://ehmatthes.github.io/pcc_2e/cheat_sheets/cheat_sheets/)
 - [Immersion](#Immersion)
 
 ### Companion Repo
@@ -199,6 +200,9 @@ This lists are by no means exhuastive.  Also, please share links to communities 
 - [r/Python](https://www.reddit.com/r/Python/)
 - [r/datasets](https://www.reddit.com/r/datasets/)
 - [r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/)
+
+### Collections of recommended resources:
+- [Data Science Resources](https://ehmatthes.github.io/pcc_2e/recommended_reading/data_science/)
 
 ## Citing my Sources
 
