@@ -40,7 +40,7 @@ Project research.  Put your answers in a cell and convert the cell to markdown. 
 
 Ideas:
 
-1. TV viewership - create a single visualization with a line graph for each tv show listed in the data set.  Determine which show has the lowest viewweship and which show has had the steepest decline in viewership.
+1. TV viewership - create a single visualization with a line graph for each tv show listed in the data set.  Determine which show has the lowest viewership and which show has had the steepest decline in viewership.
     - [Dataset to reference](https://people.sc.fsu.edu/~jburkardt/data/csv/news_decline.csv)
 
 2. Car accidents & weekdays - histogram of which day of the week had a car crash.  Determine if there is any correlation.
