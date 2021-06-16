@@ -1,0 +1,401 @@
+bbox:
+- -155.47917175293
+- 6.8386
+- -0.97000002861023
+- -73.0675
+- 61.7415
+- 150.06
+features:
+- geometry:
+    coordinates:
+    - -149.8163
+    - 61.7415
+    - 34.9
+    type: Point
+  id: ak0217l5vr6d
+  properties:
+    alert: null
+    cdi: null
+    code: 0217l5vr6d
+    detail: https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0217l5vr6d.geojson
+    dmin: null
+    felt: null
+    gap: null
+    ids: ',ak0217l5vr6d,'
+    mag: 1.5
+    magType: ml
+    mmi: null
+    net: ak
+    nst: null
+    place: 11 km E of Willow, Alaska
+    rms: 0.7
+    sig: 35
+    sources: ',ak,'
+    status: automatic
+    time: 1623690896857
+    title: M 1.5 - 11 km E of Willow, Alaska
+    tsunami: 0
+    type: earthquake
+    types: ',origin,'
+    tz: null
+    updated: 1623691083301
+    url: https://earthquake.usgs.gov/earthquakes/eventpage/ak0217l5vr6d
+  type: Feature
+- geometry:
+    coordinates:
+    - -95.22683333
+    - 36.266
+    - 0
+    type: Point
+  id: ok2021loyf
+  properties:
+    alert: null
+    cdi: null
+    code: 2021loyf
+    detail: https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2021loyf.geojson
+    dmin: 0.579486285
+    felt: null
+    gap: 149
+    ids: ',ok2021loyf,'
+    mag: 1.6
+    magType: ml
+    mmi: null
+    net: ok
+    nst: 54
+    place: 3 km NE of Sportsmen Acres, Oklahoma
+    rms: 0.39
+    sig: 39
+    sources: ',ok,'
+    status: reviewed
+    time: 1623690122359
+    title: M 1.6 Quarry Blast - 3 km NE of Sportsmen Acres, Oklahoma
+    tsunami: 0
+    type: quarry blast
+    types: ',origin,phase-data,'
+    tz: null
+    updated: 1623690709100
+    url: https://earthquake.usgs.gov/earthquakes/eventpage/ok2021loyf
+  type: Feature
+- geometry:
+    coordinates:
+    - -155.38932800293
+    - 19.2355003356934
+    - 32.060001373291
+    type: Point
+  id: hv72524447
+  properties:
+    alert: null
+    cdi: null
+    code: '72524447'
+    detail: https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72524447.geojson
+    dmin: null
+    felt: null
+    gap: 148
+    ids: ',hv72524447,'
+    mag: 1.82000005
+    magType: md
+    mmi: null
+    net: hv
+    nst: 33
+    place: "10 km ENE of P\u0101hala, Hawaii"
+    rms: 0.140000001
+    sig: 51
+    sources: ',hv,'
+    status: automatic
+    time: 1623690080570
+    title: "M 1.8 - 10 km ENE of P\u0101hala, Hawaii"
+    tsunami: 0
+    type: earthquake
+    types: ',origin,phase-data,'
+    tz: null
+    updated: 1623690283640
+    url: https://earthquake.usgs.gov/earthquakes/eventpage/hv72524447
+  type: Feature
+- geometry:
+    coordinates:
+    - -155.400665283203
+    - 19.2331657409668
+    - 32.8400001525879
+    type: Point
+  id: hv72524442
+  properties:
+    alert: null
+    cdi: null
+    code: '72524442'
+    detail: https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72524442.geojson
+    dmin: null
+    felt: null
+    gap: 139
+    ids: ',hv72524442,'
+    mag: 2.21
+    magType: ml
+    mmi: null
+    net: hv
+    nst: 52
+    place: "8 km ENE of P\u0101hala, Hawaii"
+    rms: 0.129999995
+    sig: 75
+    sources: ',hv,'
+    status: automatic
+    time: 1623689937000
+    title: "M 2.2 - 8 km ENE of P\u0101hala, Hawaii"
+    tsunami: 0
+    type: earthquake
+    types: ',origin,phase-data,'
+    tz: null
+    updated: 1623690267850
+    url: https://earthquake.usgs.gov/earthquakes/eventpage/hv72524442
+  type: Feature
+- geometry:
+    coordinates:
+    - -116.3088333
+    - 33.367
+    - 9.69
+    type: Point
+  id: ci39705831
+  properties:
+    alert: null
+    cdi: null
+    code: '39705831'
+    detail: https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39705831.geojson
+    dmin: 0.004662
+    felt: null
+    gap: 77
+    ids: ',ci39705831,'
+    mag: 0.98
+    magType: ml
+    mmi: null
+    net: ci
+    nst: 34
+    place: 14km NNE of Borrego Springs, CA
+    rms: 0.21
+    sig: 15
+    sources: ',ci,'
+    status: automatic
+    time: 1623689645830
+    title: M 1.0 - 14km NNE of Borrego Springs, CA
+    tsunami: 0
+    type: earthquake
+    types: ',nearby-cities,origin,phase-data,scitech-link,'
+    tz: null
+    updated: 1623689870963
+    url: https://earthquake.usgs.gov/earthquakes/eventpage/ci39705831
+  type: Feature
+- geometry:
+    coordinates:
+    - -103.2600939
+    - 31.09620206
+    - 1.298461914
+    type: Point
+  id: tx2021loxf
+  properties:
+    alert: null
+    cdi: null
+    code: 2021loxf
+    detail: https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021loxf.geojson
+    dmin: 0.02966983794
+    felt: null
+    gap: 57
+    ids: ',tx2021loxf,'
+    mag: 2.1
+    magType: ml
+    mmi: null
+    net: tx
+    nst: 17
+    place: 24 km SW of Coyanosa, Texas
+    rms: 0.2
+    sig: 68
+    sources: ',tx,'
+    status: reviewed
+    time: 1623688264823
+    title: M 2.1 - 24 km SW of Coyanosa, Texas
+    tsunami: 0
+    type: earthquake
+    types: ',origin,phase-data,'
+    tz: null
+    updated: 1623689094096
+    url: https://earthquake.usgs.gov/earthquakes/eventpage/tx2021loxf
+  type: Feature
+- geometry:
+    coordinates:
+    - -155.47917175293
+    - 19.1431674957275
+    - 36.0200004577637
+    type: Point
+  id: hv72524387
+  properties:
+    alert: null
+    cdi: null
+    code: '72524387'
+    detail: https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72524387.geojson
+    dmin: null
+    felt: null
+    gap: 170
+    ids: ',hv72524387,'
+    mag: 2.02999997
+    magType: md
+    mmi: null
+    net: hv
+    nst: 29
+    place: "6 km S of P\u0101hala, Hawaii"
+    rms: 0.129999995
+    sig: 63
+    sources: ',hv,'
+    status: automatic
+    time: 1623688124710
+    title: "M 2.0 - 6 km S of P\u0101hala, Hawaii"
+    tsunami: 0
+    type: earthquake
+    types: ',origin,phase-data,'
+    tz: null
+    updated: 1623688319380
+    url: https://earthquake.usgs.gov/earthquakes/eventpage/hv72524387
+  type: Feature
+- geometry:
+    coordinates:
+    - -123.2613297
+    - 39.3521652
+    - 3.18
+    type: Point
+  id: nc73574756
+  properties:
+    alert: null
+    cdi: null
+    code: '73574756'
+    detail: https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73574756.geojson
+    dmin: 0.1307
+    felt: null
+    gap: 157
+    ids: ',nc73574756,'
+    mag: 1.75
+    magType: md
+    mmi: null
+    net: nc
+    nst: 12
+    place: 10km SE of Willits, CA
+    rms: 0.04
+    sig: 47
+    sources: ',nc,'
+    status: automatic
+    time: 1623688121710
+    title: M 1.8 - 10km SE of Willits, CA
+    tsunami: 0
+    type: earthquake
+    types: ',nearby-cities,origin,phase-data,'
+    tz: null
+    updated: 1623688217387
+    url: https://earthquake.usgs.gov/earthquakes/eventpage/nc73574756
+  type: Feature
+- geometry:
+    coordinates:
+    - -155.276992797852
+    - 19.4166660308838
+    - -0.970000028610229
+    type: Point
+  id: hv72524382
+  properties:
+    alert: null
+    cdi: null
+    code: '72524382'
+    detail: https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72524382.geojson
+    dmin: null
+    felt: null
+    gap: 74
+    ids: ',hv72524382,'
+    mag: 1.78
+    magType: ml
+    mmi: null
+    net: hv
+    nst: 11
+    place: 5 km WSW of Volcano, Hawaii
+    rms: 0.140000001
+    sig: 49
+    sources: ',hv,'
+    status: automatic
+    time: 1623688096050
+    title: M 1.8 - 5 km WSW of Volcano, Hawaii
+    tsunami: 0
+    type: earthquake
+    types: ',origin,phase-data,'
+    tz: null
+    updated: 1623688426560
+    url: https://earthquake.usgs.gov/earthquakes/eventpage/hv72524382
+  type: Feature
+- geometry:
+    coordinates:
+    - -155.186492919922
+    - 19.3661670684814
+    - 0.709999978542328
+    type: Point
+  id: hv72524377
+  properties:
+    alert: null
+    cdi: null
+    code: '72524377'
+    detail: https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72524377.geojson
+    dmin: null
+    felt: null
+    gap: 132
+    ids: ',hv72524377,'
+    mag: 2.42
+    magType: ml
+    mmi: null
+    net: hv
+    nst: 11
+    place: 9 km SSE of Volcano, Hawaii
+    rms: 0.119999997
+    sig: 90
+    sources: ',hv,'
+    status: automatic
+    time: 1623688066990
+    title: M 2.4 - 9 km SSE of Volcano, Hawaii
+    tsunami: 0
+    type: earthquake
+    types: ',origin,phase-data,'
+    tz: null
+    updated: 1623688398870
+    url: https://earthquake.usgs.gov/earthquakes/eventpage/hv72524377
+  type: Feature
+- geometry:
+    coordinates:
+    - -73.0675
+    - 6.8386
+    - 150.06
+    type: Point
+  id: us7000ed00
+  properties:
+    alert: null
+    cdi: null
+    code: 7000ed00
+    detail: https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ed00.geojson
+    dmin: 0.94
+    felt: null
+    gap: 63
+    ids: ',us7000ed00,'
+    mag: 4.5
+    magType: mb
+    mmi: null
+    net: us
+    nst: null
+    place: "12 km NNE of Jord\xE1n, Colombia"
+    rms: 0.68
+    sig: 312
+    sources: ',us,'
+    status: reviewed
+    time: 1623687934806
+    title: "M 4.5 - 12 km NNE of Jord\xE1n, Colombia"
+    tsunami: 0
+    type: earthquake
+    types: ',origin,phase-data,'
+    tz: null
+    updated: 1623690461040
+    url: https://earthquake.usgs.gov/earthquakes/eventpage/us7000ed00
+  type: Feature
+metadata:
+  api: 1.10.3
+  count: 11
+  generated: 1623691095000
+  status: 200
+  title: USGS Magnitude 1.0+ Earthquakes, Past Hour
+  url: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_hour.geojson
+type: FeatureCollection
