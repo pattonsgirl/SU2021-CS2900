@@ -1,5 +1,27 @@
 # Project 1 - Draft Phase
 
+## Project Requirements:
+
+1. Find a data set that interests you. It is recommended to work with a smallish dataset (less than 1 GB).  Below are some sites you can browse for datasets.  There are some suggested ideas below if you don't have anything in particular in mind.  
+    - https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html
+    - https://www.kaggle.com/datasets 
+
+2. What would you like to discover about this data?
+
+3. What visualization seems useful to either help with the discovery, or as an additional discovery?
+
+4. Cite a source that will help you get to your goals.  This could be a visualization similar to one you are trying to create.
+
+Ideas:
+
+1. TV viewership - create a single visualization with a line graph for each tv show listed in the data set.  Determine which show has the lowest viewership and which show has had the steepest decline in viewership.
+    - [Dataset to reference](https://people.sc.fsu.edu/~jburkardt/data/csv/news_decline.csv)
+
+2. Car accidents & weekdays - histogram of which day of the week had a car crash.  Determine if there is any correlation.
+    - [Dataset to reference](https://people.sc.fsu.edu/~jburkardt/data/csv/crash_catalonia.csv)
+
+3. Parse auth.log.csv for usernames and ip addresses.  Get count of all usernames - determine top 5. Generate pie chart of username's attempted.
+
 ## Setup:
 
 In the 'Projects' folder of your reporitory, create a folder called 'Project1'.
