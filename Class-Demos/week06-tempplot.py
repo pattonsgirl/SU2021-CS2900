@@ -7,6 +7,9 @@ from datetime import datetime
 with open("sitka_weather_2018_simple.csv", 'r') as f:
 
     reader = csv.reader(f)
+    # For this to be useful, added in a "title" row to csv file.  
+    # Point is, read and ignore row until data you want is reached, then start your loop
+    #title_row = next(reader)
     header_row = next(reader)
     #print(header_row)
     highs = []
