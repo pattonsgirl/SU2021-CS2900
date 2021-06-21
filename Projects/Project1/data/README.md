@@ -44,3 +44,12 @@ Sample usage on command line:
 ```
 curl ipinfo.io/115.56.115.248
 ```
+
+Using the `python` `response` module, the following will get the json data returned by the API
+
+```
+response = requests.get("https://ipinfo.io/"+ip_variable)
+print(response.json())
+```
+
+API does have a response time limit that - needed to add a wait time delay to query API
