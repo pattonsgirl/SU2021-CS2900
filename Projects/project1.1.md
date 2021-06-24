@@ -44,6 +44,6 @@ If you are working on your project and realizing you may have bitten off more th
         - visualization (1 pt)
         - description of visualization (1 pt)
     - Project code goals
-        - Does anything / runs something without error (1 pt)
+        - does anything / runs something without error (1 pt)
         - successfully reads in data into useful format (1 pt)
         - creates visualization based on data given (1 pt)
