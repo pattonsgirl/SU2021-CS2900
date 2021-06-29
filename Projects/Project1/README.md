@@ -20,6 +20,12 @@ We can see connections are quite scattered.  This is expected given the prevalen
 
 ## What are the most common user names?
 
+### Discussion:
+
+This did not end up as an impressive visualization, except perhaps to serve as a warning of services that commonly create admin accounts and may be exposed without being secured.
+
+More useful are the statistics we can gather:
+
 ## The code
 
 - [ip_mapper.py](ip_mapper.py) uses [data/ip-latlons.csv](data/ip-latlons.csv) to gather ips and their corresponding lat / lon coordinates
