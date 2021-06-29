@@ -1,5 +1,7 @@
 import csv
 import time
+from wordcloud import WordCloud
+import matplotlib.pyplot as plt
 
 # putting the usernames and ips into a list so I can use them later
 with open("data/auth.logs.csv", 'r') as f:
@@ -25,3 +27,16 @@ print(len(nd_usernames))
 
 print(usernames[:10])
 print(nd_usernames[:10])
+
+text=("Python Python Python Matplotlib")
+
+string_unames = (" ".join(usernames))
+print(string_unames)
+# Create the wordcloud object
+wordcloud = WordCloud(width=480, height=480, margin=0).generate(string_unames)
+
+# Display the generated image:
+plt.imshow(wordcloud, interpolation='bilinear')
+plt.axis("off")
+plt.margins(x=0, y=0)
+plt.show()

@@ -30,6 +30,10 @@ More useful are the statistics we can gather:
 
 - [ip_mapper.py](ip_mapper.py) uses [data/ip-latlons.csv](data/ip-latlons.csv) to gather ips and their corresponding lat / lon coordinates
 
+- 
+    - Additional package: `wordcloud`
+        - Installed with `pip install wordcloud`
+
 - [ip_latlonfinder.py](ip_latlonfinder.py) uses an API (`ipinfo.io`) to trace the latitude and longitude of ip addresses.
     - Input is a csv file with `username, ip` as the format
     - Program parses for unique IP addresses
