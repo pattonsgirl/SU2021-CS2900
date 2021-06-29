@@ -12,11 +12,17 @@ Using the auth log from a standard ubuntu server configuration with no additiona
 
 ## Where are the connections from?
 
-![IP map plot](images/ip-map-v1.png)
+![IP map plot](images/ip-markers.png)
+
+### Discussion:
+
+We can see connections are quite scattered.  This is expected given the prevalence of VPNs.  What it does tell me, from a security standpoint, is there are a lot of attempted connections that are /not/ from me / approved.  
 
 ## What are the most common user names?
 
 ## The code
+
+- [ip_mapper.py](ip_mapper.py) uses [data/ip-latlons.csv](data/ip-latlons.csv) to gather ips and their corresponding lat / lon coordinates
 
 - [ip_latlonfinder.py](ip_latlonfinder.py) uses an API (`ipinfo.io`) to trace the latitude and longitude of ip addresses.
     - Input is a csv file with `username, ip` as the format
