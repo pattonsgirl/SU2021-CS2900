@@ -22,6 +22,7 @@ We can see connections are quite scattered.  This is expected given the prevalen
 
 ![word cloud of usernames](images/username_wordcloud.png)
 
+![bar chart of usernames](images/barchart-username.png)
 
 
 ### Discussion:

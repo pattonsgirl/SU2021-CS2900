@@ -68,10 +68,15 @@ for s in sorteddict[:10]:
     top_ten_names.append(s[1])
     top_ten_occurences.append(s[0])
 
-fig = plt.figure()
-ax = fig.add_axes([0,0,1,1])
+# https://pythonbasics.org/matplotlib-bar-chart/
+plt.figure()
 # unsorted chart
 #ax.bar(dictionary.keys(), dictionary.values())
-ax.bar(top_ten_names, top_ten_occurences)
+plt.bar(top_ten_names, top_ten_occurences, color = 'orange', width = 0.5)
+plt.grid(color='royalblue', linestyle='--', linewidth=0.5, axis='y', alpha=0.7)
+
+plt.title('Top Ten Usernames Attempted')
+plt.xlabel('Username')
+plt.ylabel('Occurences in Log');
 
 plt.show()
