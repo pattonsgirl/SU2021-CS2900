@@ -30,6 +30,18 @@ This did not end up as an impressive visualization, except perhaps to serve as a
 
 More useful are the statistics we can gather:
 
+#### Top 10 usernames attempted:
+- Username **admin** is used 79 times
+- Username **user** is used 74 times
+- Username **test** is used 28 times
+- Username **oracle** is used 18 times
+- Username **postgres** is used 15 times
+- Username **pi** is used 15 times
+- Username **mcserver** is used 15 times
+- Username **minecraft** is used 14 times
+- Username **jenkins** is used 12 times
+- Username **hadoop** is used 11 times
+
 ## The code
 
 - [ip_mapper.py](ip_mapper.py) uses [data/ip-latlons.csv](data/ip-latlons.csv) to gather ips and their corresponding lat / lon coordinates

@@ -39,3 +39,39 @@ plt.imshow(wordcloud, interpolation='bilinear')
 plt.axis("off")
 plt.margins(x=0, y=0)
 plt.show()
+
+# https://programminghistorian.org/en/lessons/counting-frequencies
+
+# Given a list of words, return a dictionary of
+# word-frequency pairs.
+def wordListToFreqDict(wordlist):
+    wordfreq = [wordlist.count(p) for p in wordlist]
+    return dict(list(zip(wordlist,wordfreq)))
+
+# Sort a dictionary of word-frequency pairs in
+# order of descending frequency.
+
+def sortFreqDict(freqdict):
+    aux = [(freqdict[key], key) for key in freqdict]
+    aux.sort()
+    aux.reverse()
+    return aux
+
+
+dictionary = wordListToFreqDict(usernames)
+sorteddict = sortFreqDict(dictionary)
+
+top_ten_names, top_ten_occurences = [], []
+for s in sorteddict[:10]: 
+    # output in markdown for easier use in documentation
+    print(f"- Username **{s[1]}** is used {s[0]} times")
+    top_ten_names.append(s[1])
+    top_ten_occurences.append(s[0])
+
+fig = plt.figure()
+ax = fig.add_axes([0,0,1,1])
+# unsorted chart
+#ax.bar(dictionary.keys(), dictionary.values())
+ax.bar(top_ten_names, top_ten_occurences)
+
+plt.show()
