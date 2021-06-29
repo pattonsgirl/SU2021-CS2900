@@ -20,6 +20,10 @@ We can see connections are quite scattered.  This is expected given the prevalen
 
 ## What are the most common user names?
 
+![word cloud of usernames](images/username_wordcloud.png)
+
+
+
 ### Discussion:
 
 This did not end up as an impressive visualization, except perhaps to serve as a warning of services that commonly create admin accounts and may be exposed without being secured.

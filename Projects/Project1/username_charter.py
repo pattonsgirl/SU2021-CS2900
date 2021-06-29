@@ -28,10 +28,9 @@ print(len(nd_usernames))
 print(usernames[:10])
 print(nd_usernames[:10])
 
-text=("Python Python Python Matplotlib")
-
+# the wordcloud library only accepts a string, so made a giant string of username values
+# tutorial: https://www.python-graph-gallery.com/wordcloud/
 string_unames = (" ".join(usernames))
-print(string_unames)
 # Create the wordcloud object
 wordcloud = WordCloud(width=480, height=480, margin=0).generate(string_unames)
 
