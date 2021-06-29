@@ -39,4 +39,4 @@ fig = {
     'layout': figure_layout
 }
 
-offline.plot(fig, filename='ip-sources.html')
+offline.plot(fig, filename='images/ip-sources.html')
