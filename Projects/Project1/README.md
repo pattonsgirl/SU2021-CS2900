@@ -46,8 +46,13 @@ More useful are the statistics we can gather:
 ## The code
 
 - [ip_mapper.py](ip_mapper.py) uses [data/ip-latlons.csv](data/ip-latlons.csv) to gather ips and their corresponding lat / lon coordinates
+    - Additional package: `plotly`
+        - Installed with `conda install plotly`
 
-- 
+- [username_charter.py](username_charter.py) focuses on finding the most commonly tested usernames.  Data for usernames is from [data/auth.logs.csv](data/auth.logs.csv)
+    - Generates two visualizations 
+        - a wordcloud of all usernames
+        - a bar chart of the top ten usernames
     - Additional package: `wordcloud`
         - Installed with `pip install wordcloud`
 
