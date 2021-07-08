@@ -69,10 +69,10 @@ Adventures in visualization:
 
 Create a pie chart using:
 - favorite colors
-- favorite numbers from the given selection
+- Favorite number (from provided)
 
 Create a histogram using:
-- favorite numbers that users get to type.  Set a reasonable number of bins
+- Favorite number (your choice).  Set a reasonable number of bins
 
 Hints:
 - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.plot.pie.html
