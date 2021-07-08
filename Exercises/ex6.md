@@ -10,7 +10,7 @@ For this lab, create a Jupyter Notebook in your `Exercises` folder called `ex6.i
 
 **Cite the source(s) you use for your code as comments.  You can cite your own brilliance**
 
-## Part 1 (1 pt):
+## Part 1 (2 pt):
 
 You will be using [silly-survey-v2.csv](silly-survey-v2.csv) in this folder.  Since this repo and the data in it is public, here is the link if you'd rather use it: https://github.com/pattonsgirl/SU2021-CS2900/blob/main/Exercises/silly-survey-v2.csv 
 
@@ -25,16 +25,15 @@ Perform the following starting actions on the dataset:
 - for the column where users type their own number, convert the values to type `int` or `float`.  If the value cannot be converted, have it become `NaN`
 - print the cleaned dataset / dataframe
 
-## Part 2 (7 pts):
+## Part 2 (6 pts):
 
 Use code to find answers to the following questions:
 1. Mean "Favorite number (your choice)"
 2. Mode "Favorite number (from provided)"
 3. How many users chose "CEG" as their major?
 4. Mean "Favorite number (from provided)" for users who chose "CS" as their major
-5. A new question was added to the survey - how many answered the prompt: "Oh no, this is new"?
-6. How many users chose the number "42" from the selection of choices?
-7. How many users chose the number "42" from the selection of choices and chose the major "CEG"?
+5. How many users chose the number "42" from the selection of choices?
+6. How many users chose the number "42" from the selection of choices and chose the major "CEG"?
 
 
 Sample of expected format:
