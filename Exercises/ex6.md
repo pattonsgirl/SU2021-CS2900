@@ -67,7 +67,7 @@ Using the user's input, return the results for:
 
 Adventures in visualization:
 
-Create a pie chart using:
+Create pie charts using:
 - favorite colors
 - Favorite number (from provided)
 
