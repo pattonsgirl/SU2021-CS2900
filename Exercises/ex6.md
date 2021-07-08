@@ -74,6 +74,10 @@ Create a pie chart using:
 Create a histogram using:
 - favorite numbers that users get to type.  Set a reasonable number of bins
 
+Hints:
+- https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.plot.pie.html
+- https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.hist.html
+
 # Submission
 
 1. Commit and push your changes to your repository.  Verify that these changes show in your course repository, https://github.com/WSU-kduncan/cs2900-python-YOURGITHUBNAME
