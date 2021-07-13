@@ -82,6 +82,9 @@ Create pie charts using:
 - favorite colors (+ 10%)
 - Favorite number (from provided) (+ 10%)
 
+Hint:
+- https://matplotlib.org/stable/gallery/pie_and_polar_charts/pie_features.html
+
 # Submission
 
 1. Commit and push your changes to your repository.  Verify that these changes show in your course repository, https://github.com/WSU-kduncan/cs2900-python-YOURGITHUBNAME
