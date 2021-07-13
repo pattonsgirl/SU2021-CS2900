@@ -10,7 +10,7 @@ For this lab, create a Jupyter Notebook in your `Exercises` folder called `ex6.i
 
 **Cite the source(s) you use for your code as comments.  You can cite your own brilliance**
 
-## Part 1 (2 pt):
+## Part 1 (4 pt):
 
 You will be using [silly-survey-v2.csv](silly-survey-v2.csv) in this folder.  Since this repo and the data in it is public, here is the link if you'd rather use it: https://github.com/pattonsgirl/SU2021-CS2900/blob/main/Exercises/silly-survey-v2.csv 
 
@@ -62,13 +62,13 @@ Using the user's input, return the results for:
 2. How many users chose the number from "Favorite number (from provided)"
 3. How many users chose the number from "Favorite number (from provided)" and chose the major
 
-## Part 4 (3 pts):
+## Part 4 (1 pts):
 
 Adventures in visualization:
 
-Create pie charts using:
-- favorite colors
-- Favorite number (from provided)
+~~Create pie charts using:~~
+- ~~favorite colors~~
+- ~~Favorite number (from provided)~~
 
 Create a histogram using:
 - Favorite number (your choice).  Set a reasonable number of bins
@@ -76,6 +76,11 @@ Create a histogram using:
 Hints:
 - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.plot.pie.html
 - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.hist.html
+
+## Extra Credit:
+Create pie charts using:
+- favorite colors (+ 10%)
+- Favorite number (from provided) (+ 10%)
 
 # Submission
 
