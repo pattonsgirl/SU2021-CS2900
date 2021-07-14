@@ -58,7 +58,7 @@ Once merged, drop the 'abbreviation' column.
 Hints:
 - Do the two sets of data have a common column name?
 - Do the two sets of data have columns of data that correlate?
-- Investigate 'how`, `left_on` and `right_on`: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.merge.html
+- Investigate `how`, `left_on` and `right_on`: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.merge.html
 
 Sample segment of final dataframe:
 ```
