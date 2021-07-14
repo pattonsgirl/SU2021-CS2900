@@ -4,13 +4,13 @@
 
 This lab expects that you have already installed tools per the syllabus & lecture notes and have setup your course repository at https://github.com/WSU-kduncan/cs2900-python-YOURGITHUBNAME.  You can also [reference the install guide](https://github.com/pattonsgirl/SU2021-CS2900#Software)
 
-For this lab, create a Jupyter Notebook in your `Exercises` folder called `ex6.ipynb`
+For this lab, create a Jupyter Notebook in your `Exercises` folder called `ex7.ipynb`
 
 **Put each `Part` of the exercise set in its own cell**
 
 **Cite the source(s) you use for your code as comments.  You can cite your own brilliance**
 
-## Part 1:
+## Part 1 (2 pts):
 
 
 Given the following dictionaries: 
@@ -45,7 +45,7 @@ Use concatenate / append and join / merge to get a final dataframe that looks li
 
 ```
 
-## Part 2: 
+## Part 2 (4 pts): 
 
 Given these two data sets:
 - https://raw.githubusercontent.com/jakevdp/data-USstates/master/state-abbrevs.csv
@@ -76,21 +76,46 @@ Sample segment of final dataframe:
 2543          USA    total  2012  313873685.0      NaN
 ```
 
-## Part 3: 
+## Part 3 (3 pts): 
 
 Using code, find out the following:
 - Identify which columns are missing data
+- Show a dataframe that displays the rows that are missing data for the columns identified previously
+- 3 pieces of data are missing - provided information about what data is missing
 
-## Part 3:
+## Part 4 (4 pts):
+
+Using code, repair / replace values in the dataframe as follows:
+- For 'PR', fill in the state name as 'Puerto Rico'.  Print the first 2 rows to prove fixed.
+- For 'USA', fill in the state name as 'United States'.  Print the first 2 rows to prove fixed.
+- Drop the rows where 'population' is NaN.  Print the first 2 rows to prove fixed.
+- Use code to confirm that after these fixes, there are no remaining NaN values in any column
+
+## Part 5 (2 pts):
+
+Merge in the following dataset with the dataframe you have already been working on
 - https://raw.githubusercontent.com/jakevdp/data-USstates/master/state-areas.csv
 
-Data sets: https://github.com/jakevdp/data-USstates/
-Given population, area, by year info, and by age group info
-Goal: rank US states and territories by their 2010 population density
+Calulate the 'density' based on the 'population' and 'area (sq. mi)'
+
+Add the calculated 'density' to a new column in the dataframe.
+
+## Part 6 (5 pts):
+
+Unless otherwise specified, you can just print out the dataframe that matches each of the question requirements.
+
+- For all states and all years, find the maximum density. 
+- For the year '2010', find the maximum, minimum, and average 'density'.
+- For the year '2010', what state had the highest 'density' of age group 'under18'?
+- For every 'year', get the total sum of the 'population' of all 'state's 
+        - this will be the total population of the 'United States' for each year.
+        - Hint: groupby is a huge help
+- Append the yearly population total to a column in the dataframe
+        - Hint: we did something similar in lecture 7/14 with the chipotle example
 
 
 # Submission
 
 1. Commit and push your changes to your repository.  Verify that these changes show in your course repository, https://github.com/WSU-kduncan/cs2900-python-YOURGITHUBNAME
 
-2. In Pilot, paste the link to your notebook.  Sample link: https://github.com/WSU-kduncan/cs2900-python-YOURGITHUBUSERNAME/blob/main/Exercises/ex6.ipynb
+2. In Pilot, paste the link to your notebook.  Sample link: https://github.com/WSU-kduncan/cs2900-python-YOURGITHUBUSERNAME/blob/main/Exercises/ex7.ipynb
