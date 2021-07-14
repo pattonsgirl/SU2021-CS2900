@@ -51,13 +51,14 @@ Given these two data sets:
 - https://raw.githubusercontent.com/jakevdp/data-USstates/master/state-abbrevs.csv
 - https://raw.githubusercontent.com/jakevdp/data-USstates/master/state-population.csv
 
-Read them in a dataframes, and merge the data together.  Drop the 'abbreviation' column
+Merge based on the `state/region` column of the dataframe that contains population data, and the `abbreviation` column of the dataframe that contains abbreviations of state names. Use `how='outer'` to make sure no data is thrown away due to mismatched labels
+
+Once merged, drop the 'abbreviation' column.
 
 Hints:
 - Do the two sets of data have a common column name?
 - Do the two sets of data have columns of data that correlate?
-- Puch them to use 'how'
-- Investigate `left_on` and `right_on`: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.merge.html
+- Investigate 'how`, `left_on` and `right_on`: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.merge.html
 
 Sample segment of final dataframe:
 ```
