@@ -91,6 +91,9 @@ Using code, repair / replace values in the dataframe as follows:
 - Drop the rows where 'population' is NaN.  Print the first 2 rows to prove fixed.
 - Use code to confirm that after these fixes, there are no remaining NaN values in any column
 
+Hints:
+- https://stackoverflow.com/questions/47953338/how-to-replace-values-of-selected-row-of-a-column-in-pandas-dataframe
+
 ## Part 5 (2 pts):
 
 Merge in the following dataset with the dataframe you have already been working on
