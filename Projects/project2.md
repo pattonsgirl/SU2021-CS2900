@@ -33,6 +33,7 @@ The goal of this project is to use these data files to generate a final report f
 ## Data Ingestion
 
 1. Merge the two data set together
+    - I pulled out the 'left_on' and 'right_on' from exercise set 7 since the ideal columns to merge on are named differently
 2. Drop the timestamp columns for homeworks and exams
     - this is a cool time to play with `filter` and to use the regex option.  Don't overthink - find the common thing these column names have
 3. If an homework / exam was missed (blank / null / nan), then fill in the score with a 0
@@ -57,6 +58,8 @@ The goal of this project is to use these data files to generate a final report f
         - ex. 'Homework 1' and 'Homework 1 - Max Points' can go once 'hw1_score' is calculated
 
 ## Generate a Report
+
+Project report can be text from your code output that you format into your README, a separate text file (markdown would be nice), or, fanciest, play with generating a PDF. There's no score based on how you output, just that a report exists.
 
 1. For each homework and exam, output:
     - lowest score
