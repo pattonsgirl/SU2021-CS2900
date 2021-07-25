@@ -61,6 +61,8 @@ The goal of this project is to use these data files to generate a final report f
 
 Project report can be text from your code output that you format into your README, a separate text file (markdown would be nice), or, fanciest, play with generating a PDF. There's no score based on how you output, just that a report exists.
 
+**Sample report is in `Project2` folder: [Project2](Project2/README.md)**
+
 1. For each homework and exam, output:
     - lowest score
     - highest score
@@ -75,11 +77,13 @@ Average Score: 0.7752499999999999
 Standard Deviation from Average: 0.13725550257303776
 ```
 
-2. Output the final grade distribution based on sections 1 and 2
+2. Output the final grade distribution based on all sections
+    - A section breakdown (like in the sample report) is easy if you are using letter grades.  Otherwise just provide numbers across all sections
     - Hint: both `groupby` and `value_counts` may come in handy if you did letter grades (see extra credit)
 
 3. See if there was any correlation between homework or exam grades and final grades
     - Put differently, did students who did well (80% and above) recieve high final grades (80% and above)?
+    - Hint: `.corr`
 
 ## Extra Credit 1 (10%)
 
