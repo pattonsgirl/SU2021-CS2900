@@ -79,6 +79,7 @@ Standard Deviation from Average: 0.13725550257303776
 
 2. Output the final grade distribution based on all sections
     - A section breakdown (like in the sample report) is easy if you are using letter grades.  Otherwise just provide numbers across all sections
+    - Hint: if using the numeric grades, [check out `.cut`](# https://www.reddit.com/r/learnpython/comments/73z4e2/pandas_groupby_or_cut_dataframe_to_bins/)
     - Hint: both `groupby` and `value_counts` may come in handy if you did letter grades (see extra credit)
 
 3. See if there was any correlation between homework or exam grades and final grades
