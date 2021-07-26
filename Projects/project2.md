@@ -64,7 +64,7 @@ Project report can be text from your code output that you format into your READM
 **Sample report is in `Project2` folder: [Project2](Project2/README.md)**
 
 1. For each homework and exam, output:
-    - lowest score
+    - lowest score - df['homework1_score'].min
     - highest score
     - average score
     - standard deviation
