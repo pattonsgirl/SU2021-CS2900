@@ -101,7 +101,7 @@ Standard Deviation from Average: 0.13725550257303776
 
 2. In Pilot, paste the link to your project folder.  Sample link: https://github.com/WSU-kduncan/cs2900-python-YOURGITHUBUSERNAME/blob/main/Projects/Project1
 
-## Rubric (still defining 7/21):
+## Rubric:
 
 - Project2 folder contains:
     - README.md file with project details (1 pt)
