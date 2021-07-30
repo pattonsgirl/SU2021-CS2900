@@ -116,7 +116,8 @@ Standard Deviation from Average: 0.13725550257303776
         - does anything / runs something without error (1 pt)
         - data ingestion steps done (3 pts)
         - data prep steps done (5 pts)
-        - generates report with 3 key elements (3 pt)
+        - generates report with 3 key elements (6 pts)
+            - 2 pts per element
 
 ### Sources
 
